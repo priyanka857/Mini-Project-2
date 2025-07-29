@@ -1,0 +1,176 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#navbar ul li a{
+    display: block;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    font-weight: 600;
+}
+#home{
+    display: flex;
+flex-direction: column;
+padding:9px 20px;
+height: 500px;
+justify-content: center;
+align-items: center;
+}
+#services{
+margin: 100px;
+display: flex;
+flex-wrap: wrap;
+}
+#products{
+    display: flex;    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#needs-section{
+    height: 385vh;
+    position: relative;
+    margin-bottom: 35px;
+    background-color: rgb(171, 228, 209);
+}
+#itemsets{
+    display: flexbox;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+     #navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#navbar ul li a{
+display: block;
+color: white;
+padding: 4px 20px;
+border-radius: 20px;
+text-decoration: none;
+font-family: 'Courier New', Courier, monospace;
+font-size: 13px;
+font-weight: 600;
+}
+#home{
+ display: flex;
+flex-direction: column;
+padding:9px 20px;
+height: 500px;
+justify-content: center;
+align-items: center;
+}
+#services{
+margin: 100px;
+display: flex;
+flex-wrap: wrap;
+}
+#products{
+    display: flex;    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#needs-section{
+    height: 280vh;
+    position: relative;
+    margin-bottom: 35px;
+    background-color: rgb(171, 228, 209);
+}
+#itemsets{
+    display: flexbox;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #services{
+margin: 100px;
+display: grid;
+flex-wrap: wrap;
+}
+#needs-section{
+    height: 280vh;
+    position: relative;
+    margin-bottom: 35px;
+    background-color: rgb(171, 228, 209);
+}
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #navbar ul li a{
+    display: block;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+
+    }
+#services{
+margin: 100px;
+display: flex;
+}
+#needs-section{
+    height: 180vh;
+    position: relative;
+    margin-bottom: 35px;
+    background-color: rgb(171, 228, 209);
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #navbar ul li a{
+    display: block;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#products img{
+    height: 150px;
+    border-radius: 25px;
+    padding: 15px;
+    
+}
+    #services{
+        flex-wrap: nowrap;
+        margin: 100px;
+}
+#needs-section{
+    height: 100vh;
+    position: relative;
+    margin-bottom: 35px;
+    background-color: rgb(171, 228, 209);
+}
+
+
+    
+}
